@@ -1,4 +1,4 @@
-# Secure Cloud Architecture 
+# Secure Cloud Architecture
 ## Student Information 
 Name: Navarro, Joshua Erl V.        
 Section: CCIS7E 
@@ -18,3 +18,4 @@ Users → CDN → Load Balancer → Application Servers → Private Database
 - Monitoring 
 - Backups 
 
+Completed security controls and documentation
