@@ -109,3 +109,7 @@ Security IN the Cloud refers to the customer's responsibility for protecting the
 
 12. **Why are backups important?**
     Backups allow the database and student information to be restored if data is accidentally deleted, corrupted, or lost.
+
+
+
+Added cloud architecture and security plan
