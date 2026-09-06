@@ -1,4 +1,4 @@
-# Secure Cloud Architecture Plan 
+# Cloud Architecture and Security Plan
 Users 
  ↓ 
 CDN 
