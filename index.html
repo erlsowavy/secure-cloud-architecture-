@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .student-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .info-box {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #333;
+        }
+
+        .info-box strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        .login-btn {
+            display: block;
+            width: 120px;
+            margin: 25px auto 0;
+            padding: 12px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+        <p>Student Information and Records</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Student Information</h2>
+
+        <div class="student-info">
+
+            <div class="info-box">
+                <strong>Student Name</strong>
+                Joshua Erl Navarro
+            </div>
+
+            <div class="info-box">
+                <strong>Student Number</strong>
+                0123302812
+            </div>
+
+            <div class="info-box">
+                <strong>Course</strong>
+                BSIT
+            </div>
+
+            <div class="info-box">
+                <strong>Year Level</strong>
+                4th Year
+            </div>
+
+            <div class="info-box">
+                <strong>Email</strong>
+                navarrojosh03@gmail.com
+            </div>
+
+        </div>
+
+        <h2>Sample Student Records</h2>
+
+        <table>
+            <tr>
+                <th>Student Number</th>
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+                <th>Email</th>
+            </tr>
+
+            <tr>
+                <td>0123302812</td>
+                <td>Joshua Erl Navarro</td>
+                <td>BSIT</td>
+                <td>4th Year</td>
+                <td>navarrojosh03@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>0123302813</td>
+                <td>Maria Santos</td>
+                <td>BSCS</td>
+                <td>2nd Year</td>
+                <td>maria@example.com</td>
+            </tr>
+
+            <tr>
+                <td>0123302814</td>
+                <td>John Reyes</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+                <td>john@example.com</td>
+            </tr>
+
+            <tr>
+                <td>0123302815</td>
+                <td>Anna Cruz</td>
+                <td>BSIS</td>
+                <td>1st Year</td>
+                <td>anna@example.com</td>
+            </tr>
+        </table>
+
+        <button class="login-btn" onclick="alert('Login button clicked!')">
+            Login
+        </button>
+
+    </div>
+
+</body>
+</html>
+```
